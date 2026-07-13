@@ -80,3 +80,42 @@
     margin-top: 16px;
  }
  
+/* Party CSS */
+.party_content{
+    padding: 120px;
+    border-radius: 16px;
+    background-color: #0000006e;
+    background-blend-mode: multiply; 
+    background-image: url(./images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+.party_text_content h2{
+    color: #fff;
+    font-size: 64px;
+    line-height: 88px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    font-family: "Merriweather", serif;
+}
+.party_text_content p{
+    color: #ffffffb9;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 46px;
+    font-family: "Inter", sans-serif;
+}
+.party_text_content a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
