@@ -309,7 +309,7 @@
 /* Newsletter Section */
 .newsletter_section{
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 .newsletter_content{
     padding: 80px;
@@ -364,4 +364,36 @@
     outline: none;
     margin-left: -50px;
     cursor: pointer;
+}
+
+/* Footer CSS */
+footer{
+    background-color: #070211;
+    padding: 120px 0px;
+}
+footer p{
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 34px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+footer p a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer_info_area{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_social_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px 0px;
+    border-top: 1px solid #ffffff3d;
+    border-bottom: 1px solid #ffffff3d;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
