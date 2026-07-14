@@ -305,3 +305,63 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
+
+/* Newsletter Section */
+.newsletter_section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.newsletter_content{
+    padding: 80px;
+    background-color: #fff2f2;
+    border-radius: 16px;
+    text-align: center;
+}
+.newsletter_content h2{
+    margin-top: 40px;
+    margin-bottom: 22px;
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+}
+.newsletter_content p{
+    color: #070211a4;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    width: 65%;
+    margin: auto;
+}
+.newsletter_content form{
+    margin-top: 48px;
+}
+.newsletter_content form input{
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 25px 30px;
+    width: 40%;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #070211;
+}
+
+.newsletter_content form button{
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #FF0000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    border: none;
+    outline: none;
+    margin-left: -50px;
+    cursor: pointer;
+}
