@@ -268,3 +268,40 @@
     width: 220px;
     height: 220px;
 }
+
+/* Gift CSS */
+.gift_section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.gift_top h6{
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+.gift_top h2{
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+.gift_top p{
+    color: #070211a4;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    width: 65%;
+}
+.gift_content{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
